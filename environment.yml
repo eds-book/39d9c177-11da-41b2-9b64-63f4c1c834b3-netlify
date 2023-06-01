@@ -1,3 +1,4 @@
+name: prior-dev
 channels:
   - conda-forge
 dependencies:
