@@ -13,6 +13,11 @@ authors:
     affiliation: University of Mumbai
   - name: "This EDS book notebook contributors"
     website: "https://github.com/eds-book-gallery/39d9c177-11da-41b2-9b64-63f4c1c834b3/graphs/contributors"
+version: v1.0.0 # This is automatically set using the bumpversion tool.
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.8339298
+    description: The concept DOI for the collection containing all versions of the notebook.
 abstract: "Notebook developed to demonstrate the computational reproduction of the paper Deep prior in variational assimilation to estimate an ocean circulation without explicit regularization, published in Environmental Data Science journal."
 references:
   - authors:
