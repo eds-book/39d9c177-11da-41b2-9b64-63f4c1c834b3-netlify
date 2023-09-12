@@ -17,7 +17,7 @@
     <a href="https://github.com/eds-book-gallery/39d9c177-11da-41b2-9b64-63f4c1c834b3/actions/workflows/render.yaml">
         <img alt="render" src="https://github.com/eds-book-gallery/39d9c177-11da-41b2-9b64-63f4c1c834b3/actions/workflows/render.yaml/badge.svg">
     </a>
-    <a href="https://github.com/alan-turing-institute/environmental-ds-book/issues/177">
+    <a href="https://github.com/alan-turing-institute/environmental-ds-book/issues/178">
         <img alt="review" src="https://img.shields.io/badge/view-review-purple">
     </a>
     <br/>
