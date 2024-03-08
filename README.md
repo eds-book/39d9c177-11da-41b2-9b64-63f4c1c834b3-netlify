@@ -43,7 +43,7 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/eds-book-gallery/39d9c177-11da-41b2-9b64-63f4c1c834b3/assets/13321552/22a8817b-27ed-4dac-af7a-580dbce2e607" alt="thumbnail" width="500"/>
+<img src="images/thumbnail.png" alt="thumbnail" width="500"/>
 </p>
 
 # How to run
