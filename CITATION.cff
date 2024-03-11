@@ -13,7 +13,7 @@ authors:
     affiliation: University of Mumbai
   - name: "This EDS book notebook contributors"
     website: "https://github.com/eds-book-gallery/39d9c177-11da-41b2-9b64-63f4c1c834b3/graphs/contributors"
-version: v1.0.1 # This is automatically set using the bumpversion tool.
+version: v1.0.2 # This is automatically set using the bumpversion tool.
 identifiers:
   - type: doi
     value: 10.5281/zenodo.8339298
