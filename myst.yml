@@ -63,13 +63,14 @@ project:
       affiliations:
         - turing
   affiliations:
-    - id: bas
-      name: British Antarctic Survey
-      department: AI Lab
-    - id: devseed
-      name: Development Seed
-    - id: princeton
-      name: Princeton University
+    - id: mumbai
+      name: University of Mumbai
+    - id: ifremer
+      name: Ifremer
+    - id: dkrz
+      name: German Climate Computing Center
+    - id: valencia
+      name: Universitat de València
     - id: turing
       name: The Alan Turing Institute
       department: Environment & Sustainability
