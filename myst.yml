@@ -1,0 +1,118 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook.yml
+project:
+  id: 39d9c177-11da-41b2-9b64-63f4c1c834b3
+  title: "Variational data assimilation with deep prior (Jupyter Notebook) published in the Environmental Data Science book"
+  short_title: Variational data assimilation with deep prior (CIRC23)
+  abstract: "Notebook developed to demonstrate the computational reproduction of the paper Deep prior in variational assimilation to estimate an ocean circulation without explicit regularization, published in Environmental Data Science journal."
+  authors:
+    - id: mpahari
+      name: Mukulika Pahari
+      corresponding: true
+      email: mukulikapahari@gmail.com
+      url: https://github.com/Mukulikaa
+      roles:
+        - Investigation
+        - Software
+        - Visualization
+      affiliations:
+        - mumbai
+    - id: rbhoir
+      name: Rutika Bhoir
+      url: https://github.com/Rutika-16
+      roles:
+        - Investigation
+        - Software
+        - Visualization
+      affiliations:
+        - mumbai
+  reviewers:
+    - id: todaka
+      name: Tina Odaka
+      orcid: 0000-0002-1500-0156
+      url: https://github.com/tinaok
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - ifremer
+    - id: carnold
+      name: Caroline Arnold
+      orcid: 0000-0002-9458-1517
+      url: https://github.com/crlna16
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - dkrz
+    - id: ppelucchi
+      name: Paolo Pelucchi
+      orcid: 0009-0005-1910-2327
+      url: https://github.com/crlna16
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - valencia
+  editors:
+    - id: acoca
+      name: Alejandro Coca-Castro
+      orcid: 0000-0002-9264-1539
+      url: https://github.com/acocac
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - turing
+  affiliations:
+    - id: bas
+      name: British Antarctic Survey
+      department: AI Lab
+    - id: devseed
+      name: Development Seed
+    - id: princeton
+      name: Princeton University
+    - id: turing
+      name: The Alan Turing Institute
+      department: Environment & Sustainability
+  subject: Ocean
+  keywords:
+    - environmental data science
+    - ocean
+    - modelling
+    - reproducibility challenge
+  venue:
+    title: Environmental Data Science Book
+    short_title: EDS Book
+    url: https://www.edsbook.org
+  issue:
+    name: Special Issue
+  thumbnail: images/thumbnail.png
+  requirements:
+    - environment.yml
+  doi: 10.5281/zenodo.8339298
+  github: https://github.com/eds-book/39d9c177-11da-41b2-9b64-63f4c1c834b3
+  jupyter:
+    binder:
+      repo: eds-book/39d9c177-11da-41b2-9b64-63f4c1c834b3
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  date: 2024-09-13
+  toc:
+    - file: notebook.ipynb
+  exports:
+    - format: pdf
+      template: curvenote
+      article: notebook.ipynb
+      output: exports/notebook.pdf
+    - format: cff
+      type: software
+      version: v2.0.0
+      license: MIT
+      license-url: https://opensource.org/license/MIT
+  bibliography:
+    - references.bib
+
+site:
+  template: book-theme
