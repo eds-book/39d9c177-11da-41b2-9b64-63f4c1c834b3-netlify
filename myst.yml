@@ -76,10 +76,10 @@ project:
       department: Environment & Sustainability
   subject: Ocean
   keywords:
-    - environmental data science
-    - ocean
-    - modelling
-    - reproducibility challenge
+    - Ocean
+    - Modelling
+    - Special Issue
+    - Python
   venue:
     title: Environmental Data Science Book
     short_title: EDS Book
