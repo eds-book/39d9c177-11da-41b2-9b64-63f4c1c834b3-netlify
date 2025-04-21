@@ -74,9 +74,9 @@ project:
     - id: turing
       name: The Alan Turing Institute
       department: Environment & Sustainability
-  subject: Ocean
+  subject: Oceans
   keywords:
-    - Ocean
+    - Oceans
     - Modelling
     - Special Issue
     - Python
