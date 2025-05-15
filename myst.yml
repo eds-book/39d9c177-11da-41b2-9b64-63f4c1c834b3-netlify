@@ -120,3 +120,6 @@ site:
   template: book-theme
   options:
     hide_toc: true
+    favicon: images/favicon.ico
+    logo: images/edsbook_logo-black.png
+    logo_dark: images/edsbook_logo-white.png
