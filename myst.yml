@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 extends:
-  - https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook.yml
+  - https://raw.githubusercontent.com/eds-book/edsbook-config-netlify/main/edsbook.yml
 project:
   id: 39d9c177-11da-41b2-9b64-63f4c1c834b3
   title: "Variational data assimilation with deep prior (Jupyter Notebook) published in the Environmental Data Science book"
